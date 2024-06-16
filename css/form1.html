@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+             background-color: rgb(189, 189, 7);
+             margin-top: 10%;
+             margin-bottom: 10.5%;
+             margin-left: 10.5%;
+             margin-right:10.5% ;
+             padding-top: 10px;
+             padding-bottom: 10px;
+        }
+        #form1{
+            padding-top: 25px;
+            height: 300px;
+            width: 400px;
+            margin-left:350px;
+            padding-left: 20px;
+            padding-right: 80px;
+            background-color: rgb(104, 4, 4);
+
+        }
+        td{
+            width: 12px;
+            height: 45px;
+            color: white;
+            text-align: center;
+        }
+        #form2{
+            background-color: rgb(4, 104, 52);
+            height: 65px;
+            width: 400px;
+            margin-left:350px;
+            padding-left: 60px;
+            padding-right: 80px;
+
+        }
+        #form2 input{
+            width: 200px;
+            height: 300x;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="form">
+            <table id="form1">
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+            
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" id="male" name="gender" required>male
+                    <input type="radio" id="female" name="gender" required>female</td>   
+                </tr>
+                <tr>
+                    <td><label for="zipcode">zipcode</label></td>
+                    <td><input type="zipcode" id="zipcode" name="zipcode" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">mobile</label></td>
+                    <td><input type="number" id="number" name="mobile" required></td>
+                </tr>
+                <tr>
+                    <td><label for="about">about</label></td>
+                    <td><textarea   name="about" id="about" name="about"required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="state">state</label></td>
+                    <td><input type="text" id="state" name="state" required></td>
+                </tr>
+               
+                <tr>
+                    <td><label for="language">language</label></td>
+                    <td><input type="checkbox" id="telugu" name="language" required>telugu
+                    <input type="checkbox" id="hindi" name="language" required>hindi
+                    <input type="checkbox" id="english" name="language" required>english</td>
+                    
+                </tr>
+            
+            </table>
+        
+            <table id="form2">
+            <tr>
+                <td><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</body>
+</html>
